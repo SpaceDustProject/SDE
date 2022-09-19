@@ -1,0 +1,13 @@
+#ifndef _SDE_VERSION_H_
+#define _SDE_VERSION_H_
+
+#define SDE_VERSION_MAJOR	1
+#define SDE_VERSION_MINOR	0
+#define SDE_PATCH_LEVEL		0
+
+#define SDE_VERSION_NUM			\
+	SDE_VERSION_MAJOR * 10000 +	\
+	SDE_VERSION_MINOR * 100 +	\
+	SDE_PATCH_LEVEL
+
+#endif // !_SDE_VERSION_H_
